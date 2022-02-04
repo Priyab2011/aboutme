@@ -1,0 +1,116 @@
+body {
+  color:black;
+  font-size: 1em; 
+  font-family: "Open Sans", "Helvetica Neue", sans-serif; 
+
+}
+
+.masthead-intro,
+.content-footer {
+   text-align: center; 
+   /* font-family: Comic Sans MS; */
+}
+
+.masthead {
+  padding: 11em 0;
+  background-image: url('bluepic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+.hobby{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:black
+}
+
+ul{
+  float:right;
+  margin-top: -25%;
+  margin-right: 7%;
+  list-style-type:none;
+}
+.main a{
+  padding-right: 15px;
+  font-size: 25px;
+}
+ul li{
+  display: inline-block;
+}
+
+.masthead-intro{
+  font-family: "Comic Sans MS";
+  font-size: 4em; 
+  color:black;
+}
+
+.masthead-heading {
+
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+/* Text Declarations for Sections */
+
+.content-footer > p 
+{
+  font-weight: 400; 
+  letter-spacing: 0.05em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+
+}
+/* Section Styling */
+
+.introduction-section, 
+.location-section{
+   max-width: 38em;  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;  
+  font-family:"Comic Sans MS";
+  font-size:large; 
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.1 em; 
+  font-weight: bold;
+  color: #222222;
+}
+
+/* Footer Styling */
+
+.fa-stack fa-lg {
+  display: inline-block;
+}
+
+.footer-container > p {
+  color: white;
+}
+
+.content-footer {
+  padding: 2em 0;
+  margin-top: 3em;
+  background: #2b3840;
+  font-family: "Georgia";
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link {
+  color: #6d4808;
+}
+
+a:visited {
+  color:aqua;
+}
+
+a:hover {
+  color:burlywood;
+}
+
+
